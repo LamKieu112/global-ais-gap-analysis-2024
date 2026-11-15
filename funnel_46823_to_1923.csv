@@ -1,0 +1,9 @@
+step,rows_remaining,rows_removed,pct_of_raw
+1. Raw data,46823,,100.0
+2. start in January 2024 (UTC),39503,7320,84.37
+3. Exclude vessel_type = gear,2167,37336,4.63
+4. ssvid has 9 digits and does not start with 99,2114,53,4.51
+5. gap_impliedSpeedKnots <= 30,2105,9,4.5
+6. gap_durationHours <= 720 (30 days),2021,84,4.32
+7. Exclude ssvid starting with 98 (auxiliary craft/buoys),1974,47,4.22
+8. MID (first 3 digits of ssvid) in 201-775 (valid ITU),1923,51,4.11
